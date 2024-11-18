@@ -106,7 +106,7 @@ namespace ProblematicProblem
                     }
                 } while (userAgeCheck < 21 && randomActivity == "Wine Tasting");
 
-                Console.Write($"Ah got it! {randomActivity}, your random activity is: {userName}! Is this ok or do you want to grab another activity? Keep/Redo: ");
+                Console.WriteLine($"Ah got it! {randomActivity}, your random activity is: {userName}! Is this ok or do you want to grab another activity? Keep/Redo: ");
                 Console.WriteLine();
                 redoInput = Console.ReadLine().ToLower();
 
